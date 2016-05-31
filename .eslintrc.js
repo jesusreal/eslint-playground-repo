@@ -1,17 +1,17 @@
 module.exports = {
-parser: 'babel-eslint',
+  //parser: 'babel-eslint',
   extends: 'eslint',
   plugins: ['react', 'babel', 'flow-vars'],
   globals: {
     "document": false
   },
-parserOptions: {
+  parserOptions: {
     "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
         "jsx": true
     }
-},
+  },
   rules: {
     "require-jsdoc": 0,
     "comma-dangle": 0,
