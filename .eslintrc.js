@@ -1,5 +1,5 @@
 module.exports = {
-  // parser: 'babel-eslint',
+  parser: 'babel-eslint',
   plugins: ['react'],
   extends: 'eslint',
   // extends: ['eslint', "plugin:react/recommended"],
@@ -7,11 +7,11 @@ module.exports = {
     "document": false
   },
   parserOptions: {
-      "ecmaVersion": 6,
-      "sourceType": "module",
-      "ecmaFeatures": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
         "jsx": true
-      }
+    }
   },
   rules: {
     "require-jsdoc": 0,
