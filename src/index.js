@@ -11,7 +11,7 @@ export class Page extends React.Component {
         <div id="id-1">
           <button>1</button>
         </div>
-        <NewComponent/>
+        <NewComponent></NewComponent>
       </div>
     );
   }
